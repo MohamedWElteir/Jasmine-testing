@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+    flex-direction: column;
+    /* Align forms vertically */
+}
+
+form {
+    background-color: #ffffff2d;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    /* Form width limit */
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #00000000;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #7cce7f;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: #2c552e;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+}
+
+.success {
+    color: green;
+    font-size: 14px;
+}
+
+.login-link, .signup-link {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.login-link a, .signup-link a {
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+.result-message {
+    margin-top: 20px;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.result-message.success {
+    color: green;
+}
+
+.result-message.error {
+    color: red;
+}
+.criteria-text {
+    color: #000000a4;
+    font-size: 14px;
+    margin-top: 5px;
+    display: block;
+}
